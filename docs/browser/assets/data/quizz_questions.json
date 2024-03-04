@@ -1,0 +1,62 @@
+{
+  "title":"Qual apelido do Toninho Tornado você receberia ?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Qual a sua comida favorita ?",
+      "options":[
+        {"id": 1, "name":"Hamburguer", "alias":"A"},
+        {"id": 2, "name":"Salada", "alias":"B"},
+        {"id": 3, "name":"Churrasco", "alias":"C"},
+        {"id": 4, "name":"Sushi", "alias":"D"},
+        {"id": 5, "name":"Linguiça", "alias":"C"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Qual o seu estilo de humor ?",
+      "options":[
+        {"id": 1, "name":"Irreverente", "alias":"A"},
+        {"id": 2, "name":"Sarcástico", "alias":"C"},
+        {"id": 3, "name":"Inteligente", "alias":"B"},
+        {"id": 4, "name":"Politicamente incorreto", "alias":"D"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Qual o seu animal favorito ?",
+      "options":[
+        {"id": 1, "name":"Cachorro", "alias":"C"},
+        {"id": 2, "name":"Gato", "alias":"B"},
+        {"id": 3, "name":"Cavalo", "alias":"D"},
+        {"id": 4, "name":"Macaco", "alias":"A"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Qual a sua cor favorita ?",
+      "options":[
+        {"id": 1, "name":"Vermelho", "alias":"C"},
+        {"id": 2, "name":"Azul", "alias":"A"},
+        {"id": 3, "name":"Verde", "alias":"B"},
+        {"id": 4, "name":"Amarelo", "alias":"D"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Qual piada de Tiozão é mais engraçada ?",
+      "options":[
+        {"id": 1, "name":"O que o tomate foi fazer no banco? Tirar um extrato", "alias":"A"},
+        {"id": 2, "name":"Porque o cavalo usou o orelhão? Para passar um trote", "alias":"C"},
+        {"id": 3, "name":"Que animal come com o rabo? Todos, porque nenhum tira o rabo para comer", "alias":"D"},
+        {"id": 4, "name":"O que o pato disse para a Pata? Vem Quá!", "alias":"B"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Calma CNPJoto!",
+    "B": "Calma Tata Wernecko!",
+    "C": "Calma Calabreso!",
+    "D": "Calma Torre Gêmeo!"
+  }
+}
