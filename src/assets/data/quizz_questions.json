@@ -1,55 +1,62 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Qual apelido do Toninho Tornado você receberia ?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Qual a sua comida favorita ?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Hamburguer", "alias":"A"},
+        {"id": 2, "name":"Salada", "alias":"B"},
+        {"id": 3, "name":"Churrasco", "alias":"C"},
+        {"id": 4, "name":"Sushi", "alias":"D"},
+        {"id": 5, "name":"Linguiça", "alias":"C"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Qual o seu estilo de humor ?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Irreverente", "alias":"A"},
+        {"id": 2, "name":"Sarcástico", "alias":"C"},
+        {"id": 3, "name":"Inteligente", "alias":"B"},
+        {"id": 4, "name":"Politicamente incorreto", "alias":"D"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Qual o seu animal favorito ?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Cachorro", "alias":"C"},
+        {"id": 2, "name":"Gato", "alias":"B"},
+        {"id": 3, "name":"Cavalo", "alias":"D"},
+        {"id": 4, "name":"Macaco", "alias":"A"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual a sua cor favorita ?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Vermelho", "alias":"C"},
+        {"id": 2, "name":"Azul", "alias":"A"},
+        {"id": 3, "name":"Verde", "alias":"B"},
+        {"id": 4, "name":"Amarelo", "alias":"D"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Qual piada de Tiozão é mais engraçada ?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"O que o tomate foi fazer no banco? Tirar um extrato", "alias":"A"},
+        {"id": 2, "name":"Porque o cavalo usou o orelhão? Para passar um trote", "alias":"C"},
+        {"id": 3, "name":"Que animal come com o rabo? Todos, porque nenhum tira o rabo para comer", "alias":"D"},
+        {"id": 4, "name":"O que o pato disse para a Pata? Vem Quá!", "alias":"B"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Calma CNPJoto!",
+    "B": "Calma Tata Wernecko!",
+    "C": "Calma Calabreso!",
+    "D": "Calma Torre Gêmeo!"
   }
 }
