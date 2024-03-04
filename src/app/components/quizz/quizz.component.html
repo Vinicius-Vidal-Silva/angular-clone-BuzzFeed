@@ -1,20 +1,31 @@
-<div class="quizzConteudo">
-  <div class="quizzLogo">
-    <img src="../../../assets/imgs/maxresdefault.jpg" alt="">
-    <h3>{{title}}</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="quizz.component.css">
+</head>
+<body>
+  <div class="quizzConteudo">
+    <div class="quizzLogo">
+      <img src="../../../assets/imgs/maxresdefault.jpg" alt="">
+      <h3>{{title}}</h3>
+    </div>
+    <div *ngIf =!finished class="quizzQuestion">
+      <h3>{{questionSelected.question}}</h3>
+    </div>
+    <div *ngIf =!finished class="quizzOptions">
+      <button *ngFor="let option of questionSelected.options; let i = index"
+      (click)="playerChoose(option.alias)"
+      class="quizzOptionsBotao">
+        {{option.name}}
+      </button>
+    </div>
+    <div *ngIf="finished" class="quizzResultado">
+      <h3>O seu resultado é:</h3>
+      <p>{{answerSelected}}</p>
+    </div>
   </div>
-  <div *ngIf =!finished class="quizzQuestion">
-    <h3>{{questionSelected.question}}</h3>
-  </div>
-  <div *ngIf =!finished class="quizzOptions">
-    <button *ngFor="let option of questionSelected.options; let i = index"
-    (click)="playerChoose(option.alias)"
-    class="quizzOptionsBotao">
-      {{option.name}}
-    </button>
-  </div>
-  <div *ngIf="finished" class="quizzResultado">
-    <h3>O seu resultado é:</h3>
-    <p>{{answerSelected}}</p>
-  </div>
-</div>
+</body>
+</html>
