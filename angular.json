@@ -6,14 +6,14 @@
     "cloneBuzzFeed": {
       "projectType": "application",
       "schematics": {},
-      "root": "",
+      "root": "src/index.html",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "docs",
+            "outputPath": "dist/index.html",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
